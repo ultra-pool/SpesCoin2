@@ -1,0 +1,29 @@
+<!DOCTYPE RCC><RCC version="1.0">
+    <qresource prefix="/translations">
+        <file alias="bg">locale/spescoin_bg.qm</file>
+        <file alias="ca">locale/spescoin_ca.qm</file>
+        <file alias="cs">locale/spescoin_cs.qm</file>
+        <file alias="da">locale/spescoin_da.qm</file>
+        <file alias="de">locale/spescoin_de.qm</file>
+        <file alias="en">locale/spescoin_en.qm</file>
+        <file alias="en_US">locale/spescoin_en_US.qm</file>
+        <file alias="es">locale/spescoin_es.qm</file>
+        <file alias="fi">locale/spescoin_fi.qm</file>
+        <file alias="fr_FR">locale/spescoin_fr_FR.qm</file>
+        <file alias="it">locale/spescoin_it.qm</file>
+        <file alias="ja">locale/spescoin_ja.qm</file>
+        <file alias="ko_KR">locale/spescoin_ko_KR.qm</file>
+        <file alias="nl">locale/spescoin_nl.qm</file>
+        <file alias="pl">locale/spescoin_pl.qm</file>
+        <file alias="pt">locale/spescoin_pt.qm</file>
+        <file alias="pt_BR">locale/spescoin_pt_BR.qm</file>
+        <file alias="ro_RO">locale/spescoin_ro_RO.qm</file>
+        <file alias="ru">locale/spescoin_ru.qm</file>
+        <file alias="sk">locale/spescoin_sk.qm</file>
+        <file alias="sv">locale/spescoin_sv.qm</file>
+        <file alias="tr">locale/spescoin_tr.qm</file>
+        <file alias="uk">locale/spescoin_uk.qm</file>
+        <file alias="zh_CN">locale/spescoin_zh_CN.qm</file>
+        <file alias="zh_TW">locale/spescoin_zh_TW.qm</file>
+    </qresource>
+</RCC>

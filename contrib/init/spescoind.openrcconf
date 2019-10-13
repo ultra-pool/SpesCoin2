@@ -1,0 +1,26 @@
+# /etc/conf.d/spescoind: config file for /etc/init.d/spescoind
+
+# Config file location
+#BITCOIND_CONFIGFILE="/etc/spescoin/spescoin.conf"
+
+# What directory to write pidfile to?  (created and owned by $BITCOIND_USER)
+#BITCOIND_PIDDIR="/var/run/spescoind"
+
+# What filename to give the pidfile
+#BITCOIND_PIDFILE="${BITCOIND_PIDDIR}/spescoind.pid"
+
+# Where to write spescoind data (be mindful that the blockchain is large)
+#BITCOIND_DATADIR="/var/lib/spescoind"
+
+# User and group to own spescoind process
+#BITCOIND_USER="spescoin"
+#BITCOIND_GROUP="spescoin"
+
+# Path to spescoind executable
+#BITCOIND_BIN="/usr/bin/spescoind"
+
+# Nice value to run spescoind under
+#BITCOIND_NICE=0
+
+# Additional options (avoid -conf and -datadir, use flags above)
+BITCOIND_OPTS=""
