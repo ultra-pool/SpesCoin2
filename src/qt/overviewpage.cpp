@@ -709,15 +709,15 @@ void OverviewPage::on_pushButton_Telegram_clicked() {
 void OverviewPage::on_pushButton_Twitter_clicked() {
     QDesktopServices::openUrl(QUrl("https://twitter.com/SpesCoin", QUrl::TolerantMode));
 }
-void OverviewPage::on_pushButton_Bitcointalk_clicked() {
+void OverviewPage::on_pushButton_Facebook_clicked() {
     QDesktopServices::openUrl(QUrl("https://www.facebook.com/myspescoin", QUrl::TolerantMode));
 }
 void OverviewPage::on_pushButton_Github_clicked() {
     QDesktopServices::openUrl(QUrl("https://github.com/SpesCoin/spescoin", QUrl::TolerantMode));
 }
 
-void OverviewPage::on_pushButton_Facebook_clicked() {
-    QDesktopServices::openUrl(QUrl("https://www.facebook.com/myspescoin", QUrl::TolerantMode));
+void OverviewPage::on_pushButton_Bitcointalk_clicked() {
+    QDesktopServices::openUrl(QUrl("https://bitcointalk.org/index.php?topic=5192758", QUrl::TolerantMode));
 }
 
 void OverviewPage::on_pushButton_Explorer_clicked() {
