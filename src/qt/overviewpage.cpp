@@ -398,9 +398,9 @@ void OverviewPage::updateMasternodeInfo()
         ui->roi_21->setText(mn2==0 ? "-" : QString::number(roi2,'f',0).append("  |"));
         ui->roi_31->setText(mn3==0 ? "-" : QString::number(roi3,'f',0).append("  |"));
 
-        ui->roi_12->setText(mn1==0 ? " " : QString::number(  26000/roi1,'f',1).append(" days"));
-        ui->roi_22->setText(mn2==0 ? " " : QString::number( 60000/roi2,'f',1).append(" days"));
-        ui->roi_32->setText(mn3==0 ? " " : QString::number( 150000/roi3,'f',1).append(" days"));
+        ui->roi_12->setText(mn1==0 ? " " : QString::number(  1000/roi1,'f',1).append(" days"));
+        ui->roi_22->setText(mn2==0 ? " " : QString::number( 25000/roi2,'f',1).append(" days"));
+        ui->roi_32->setText(mn3==0 ? " " : QString::number( 80000/roi3,'f',1).append(" days"));
     }
     CAmount tNodesSumm = mn1*1000 + mn2*25000 + mn3*80000;
     CAmount tMoneySupply = chainActive.Tip()->nMoneySupply;
