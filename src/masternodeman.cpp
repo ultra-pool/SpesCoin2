@@ -486,7 +486,7 @@ std::map<unsigned, unsigned> CMasternodeMan::CountEnabledByLevels(int protocolVe
     return result;
 }
 
-void CMasternodeMan::CountNetworks(int protocolVersion, int& ipv4, int& ipv6, int& onion)
+void CMasternodeMan::CountNetworks(int protocolVersion, int& ipv4, int& onion)
 {
     protocolVersion = protocolVersion == -1 ? masternodePayments.GetMinMasternodePaymentsProto() : protocolVersion;
 
@@ -500,9 +500,6 @@ void CMasternodeMan::CountNetworks(int protocolVersion, int& ipv4, int& ipv6, in
         switch (nNetwork) {
             case 1 :
                 ipv4++;
-                break;
-            case 2 :
-                ipv6++;
                 break;
             case 3 :
                 onion++;
