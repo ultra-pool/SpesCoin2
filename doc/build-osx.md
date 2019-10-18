@@ -40,7 +40,7 @@ Instructions: Homebrew
 
 1. Clone the github tree to get the source code and go into the directory.
 
-        git clone https://github.com/SpesCoin/spescoin.git SPES
+        git clone https://github.com/SpesCoin/SpesCoin2.git SPES
         cd SPES
 
 2.  Build spescoind:
