@@ -281,7 +281,7 @@ Clone the git repositories for spescoin and gitian and then checkout the spescoi
 
 ```bash
 git clone https://github.com/devrandom/gitian-builder.git
-git clone https://github.com/spescoin-crypto/spescoin.git
+git clone https://github.com/SpesCoin/SpesCoin2.git
 cd spescoin
 git checkout v${VERSION}
 cd ..
